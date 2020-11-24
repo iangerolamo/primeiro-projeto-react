@@ -1,7 +1,7 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import logoImg from '../../assets/logo.svg';
-import Repository from '../Repository';
 
 import { Title, Form, Repositories } from './styles';
 
@@ -25,6 +25,32 @@ const Dashboard: React.FC = () => (
           <strong>rocketseat/unform</strong>
           <p>Easy peasy highly scalable ReactJS!</p>
         </div>
+
+        <FiChevronRight size={20} />
+      </a>
+      <a href="teste">
+        <img
+          src="https://avatars3.githubusercontent.com/u/67077374?s=460&u=833f79e455c11a4208e6f773d68ff7be9935da47&v=4"
+          alt="Ian Gerolamo"
+        />
+        <div>
+          <strong>rocketseat/unform</strong>
+          <p>Easy peasy highly scalable ReactJS!</p>
+        </div>
+
+        <FiChevronRight size={20} />
+      </a>
+      <a href="teste">
+        <img
+          src="https://avatars3.githubusercontent.com/u/67077374?s=460&u=833f79e455c11a4208e6f773d68ff7be9935da47&v=4"
+          alt="Ian Gerolamo"
+        />
+        <div>
+          <strong>rocketseat/unform</strong>
+          <p>Easy peasy highly scalable ReactJS!</p>
+        </div>
+
+        <FiChevronRight size={20} />
       </a>
     </Repositories>
   </>
